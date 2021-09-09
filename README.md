@@ -15,3 +15,16 @@ The town of Tirupati in Andhra Pradesh is famous for its temples, the most famou
 * Pongal
 
 [AboutME link](AboutME.md)
+
+---
+
+## Recommended Food
+The Below table shows the food items, Location and Amount to be paid
+
+ | Food Items | Location |Amount inr|
+ | ---        | ---      | ----     |
+ |  Biryani   | Hyderabad|   300    |
+ |  Jilebi    | Andhra   |   100    |
+ |  Haleem    |Telangana |   250    |
+ | Manchuriya | Karnataka|   150    |
+
