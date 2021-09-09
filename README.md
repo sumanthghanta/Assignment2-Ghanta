@@ -32,7 +32,7 @@ The Below table shows the food items, Location and Amount to be paid
 
 ## Quotes
 
-> “The purpose of our lives is to be happy.” -*dalai Lama*
+> “The purpose of our lives is to be happy.” -*dalai Lama*<br>
 > “Life is what happens when you’re busy making other plans.”-*John Lennon*
 
 ---
