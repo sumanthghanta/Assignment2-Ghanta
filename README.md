@@ -28,3 +28,35 @@ The Below table shows the food items, Location and Amount to be paid
  |  Haleem    |Telangana |   250    |
  | Manchuriya | Karnataka|   150    |
 
+---
+
+## Quotes
+
+> “The purpose of our lives is to be happy.” -*dalai Lama*
+> “Life is what happens when you’re busy making other plans.”-*John Lennon*
+
+---
+
+## Ternary search
+> Ternary search is a divide and conquer algorithm that can be used to find an element in an array.<https://en.wikipedia.org/wiki/Ternary_search>
+
+```
+double ternary_search(double l, double r) {
+    double eps = 1e-9;              //set the error limit here
+    while (r - l > eps) {
+        double m1 = l + (r - l) / 3;
+        double m2 = r - (r - l) / 3;
+        double f1 = f(m1);      //evaluates the function at m1
+        double f2 = f(m2);      //evaluates the function at m2
+        if (f1 < f2)
+            l = m1;
+        else
+            r = m2;
+    }
+    return f(l);                    //return the maximum of f(x) in [l, r]
+}
+```
+
+<https://cp-algorithms.com/num_methods/ternary_search.html>
+
+
